@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+    .container {
+        position: sticky;
+        gap: 10px;
+        border: 4px solid black;
+        top: 0px;
+        width: 100%;
+        display: flex;
+        background-color: black;
+        z-index: 999;
+        color: white;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+
+    }
+
+    .container .item {
+        font-size: 20px;
+        color: white;
+    }
+
+    .bi-search {
+      position: absolute;
+      right: 20px;
+    }
+    .container-2{
+        border: 4px solid black;
+        background-color: black;
+        color: white;
+        display: flex;
+        gap: 20px;
+        justify-content: space-around;
+    }
+    .box{
+        border: 4px solid black;
+        gap: 15px;
+        display: flex;
+        justify-content: space-around;
+        color: white;
+        background-color: black;
+        position: relative;
+
+    }
+    .box-1>p{
+        border-radius: 4px solid black;
+        background-color: green;
+        display: inline-block;
+        color: white;
+        position: absolute;
+        left: 550px;
+    }
+    .box-1>span {
+        border-radius: 4px solid black;
+        background-color: red;
+        display: inline-block;
+        color: white;
+        right: 710px;
+        position: absolute;
+    }
+    .container-3{
+        position: relative;
+        color: white;
+
+    }
+    .container-3>span{
+        position: absolute;
+        top: 5px;
+        left:5px;
+        font-size: 20px;
+    }
+   .container-3>h1{
+        font-size: 70px;
+        top: 500px;
+        right: 500px;
+        position: absolute;
+   }
+   .container-3>h3{
+    position: absolute;
+    font-size: 40px;
+    bottom: 250px;
+    right: 500px;
+   }
+   .container-3>p{
+position: absolute;
+font-size: 14px;
+bottom: 5px;
+left: 5px;;
+   }
+   
